@@ -23,7 +23,7 @@ public class DetailActivity extends AppCompatActivity {
         bodyTextView = findViewById(R.id.detailTextViewBody);
         closeButton = findViewById(R.id.myHalfButton);
 
-
+        // Intent
         Intent intent = getIntent();
 
 
@@ -36,7 +36,7 @@ public class DetailActivity extends AppCompatActivity {
         closeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 4. NEW: This is the command to close the activity
+                // Ovo zatvara activity detail
                 finish();
             }
         });
